@@ -1,0 +1,10 @@
+.MainTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+@media (max-width: 900px) {
+    .MainTitle {
+        gap: 10px;
+    }
+}

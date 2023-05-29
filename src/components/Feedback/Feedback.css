@@ -1,0 +1,25 @@
+.Feedback {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-left: -60px;
+
+    transform: rotate(-90deg);
+}
+
+.Feedback_C {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    font-size: 13px;
+    background: #a50034;
+
+    height: 35px;
+    width: 85px;
+}
+.L {
+    transform: rotate(-90deg);
+}

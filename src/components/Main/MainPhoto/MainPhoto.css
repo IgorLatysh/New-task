@@ -1,0 +1,13 @@
+.Main_Photo {
+    /* width: 450px; */
+    /* height: 360px; */
+}
+.carusel_item {
+    padding: 50px;
+}
+@media (max-width: 900px) {
+    .Main_Photo {
+        width: 240px;
+        /* height: 280px; */
+    }
+}

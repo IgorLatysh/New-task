@@ -1,0 +1,38 @@
+.prize_box {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_tt {
+    width: 100px;
+}
+.div_priz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 5;
+}
+.priz {
+    width: 50%;
+    animation: rot 0.8s none ease-out;
+}
+@media (max-width: 900px) {
+    .priz {
+        width: 80%;
+    }
+}
+@keyframes rot {
+    0% {
+        transform: rotate(90deg) scale(0.8);
+    }
+    100% {
+        transform: rotate(0deg) scale(1);
+    }
+}

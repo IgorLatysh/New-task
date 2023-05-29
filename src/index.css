@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button {
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 500ms;
+}
+.button:hover {
+    border-color: #a50034;
+    background: #a50034;
+    color: #fff;
+}
+.button_01 {
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 500ms;
+    padding: 0.7px;
+    margin-top: -20px;
+    width: 100%;
+    color: green;
+}
+.button_01:hover {
+    border-color: green;
+    background: green;
+    color: #fff;
+}

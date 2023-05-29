@@ -1,0 +1,25 @@
+.dialog_box_md {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    width: 530px;
+    height: 570px;
+    background: #fff;
+}
+.button_popap {
+    width: 88px;
+    height: 40px;
+}
+.dialog_box_xs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,80 @@
+.PrizeBox {
+    position: relative;
+    cursor: pointer;
+}
+
+.PrizeBox_md {
+    width: 258px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.PrizeBox_md:hover {
+    animation: dr 0.3s ease-in infinite;
+}
+.PrizeBox_V_md {
+    margin-bottom: -75%;
+    z-index: 3;
+    transition: all 1000ms;
+}
+.PrizeBox_S_md {
+    margin-bottom: -72%;
+}
+.PrizeBox_priz_md {
+    margin: auto;
+    position: absolute;
+    width: 60%;
+    z-index: 1;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1000ms;
+}
+.PrizeBox_N_md {
+    z-index: 2;
+}
+
+@keyframes dr {
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: -3px;
+        /* transform: rotate(3deg); */
+    }
+    100% {
+        /* transform: rotate(-3deg); */
+        margin-left: 3px;
+    }
+}
+
+.PrizeBox_xs {
+    width: 100px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.PrizeBox_V_xs {
+    margin-bottom: -75%;
+    z-index: 2;
+    transition: all 1000ms;
+}
+.PrizeBox_N_xs {
+    z-index: 1;
+}
+
+.PrizeBox_V_xs:hover {
+    margin-bottom: -70%;
+}
+.PrizeBox_priz_xs {
+    margin: auto;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    margin-bottom: -60%;
+    margin-left: 25%;
+    transition: all 1000ms;
+}
