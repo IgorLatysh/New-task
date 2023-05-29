@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/New-task/static/css/main.33d19e8b.css",
+    "main.js": "/New-task/static/js/main.36815049.js",
+    "static/media/IMG000 2.png": "/New-task/static/media/IMG000 2.8960de77a9d96a854647.png",
+    "static/media/IMG000 (1).png": "/New-task/static/media/IMG000 (1).916f1e0706b4a25edcad.png",
+    "static/media/IMG000.png": "/New-task/static/media/IMG000.2d2690b040c0211e90f5.png",
+    "static/media/IMG_6661 2.png": "/New-task/static/media/IMG_6661 2.9a106e19fe055651b604.png",
+    "static/media/logo.png": "/New-task/static/media/logo.1fdd95c0422bcc906c46.png",
+    "static/media/3 66.png": "/New-task/static/media/3 66.e39cce56846b4ec8d7ed.png",
+    "static/media/2 2.png": "/New-task/static/media/2 2.9179345a3b407226e9ba.png",
+    "static/media/Flag_of_Australia.svg.png": "/New-task/static/media/Flag_of_Australia.svg.02e3fd6fcb8ff79be5ae.png",
+    "static/media/1 33.png": "/New-task/static/media/1 33.b0b9e06be7e9e136c572.png",
+    "static/media/free-icon-checkmark-1828710.png": "/New-task/static/media/free-icon-checkmark-1828710.81f98c307602bfcbf822.png",
+    "index.html": "/New-task/index.html",
+    "main.33d19e8b.css.map": "/New-task/static/css/main.33d19e8b.css.map",
+    "main.36815049.js.map": "/New-task/static/js/main.36815049.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33d19e8b.css",
+    "static/js/main.36815049.js"
+  ]
+}
